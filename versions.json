@@ -1,0 +1,137 @@
+{
+  "10": {
+    "alpine": "3.15",
+    "bullseye": {
+      "arches": [
+        "amd64",
+        "arm64",
+        "ppc64el"
+      ],
+      "version": "10.19-1.pgdg110+1"
+    },
+    "debian": "stretch",
+    "debianSuites": [
+      "bullseye",
+      "stretch"
+    ],
+    "major": 10,
+    "sha256": "6eb830b428b60e84ae87e20436bce679c4d9d0202be7aec0e41b0c67d9134239",
+    "stretch": {
+      "arches": [
+        "amd64",
+        "i386",
+        "ppc64el"
+      ],
+      "version": "10.19-1.pgdg90+1"
+    },
+    "version": "10.19"
+  },
+  "11": {
+    "alpine": "3.15",
+    "bullseye": {
+      "arches": [
+        "amd64",
+        "arm64",
+        "ppc64el"
+      ],
+      "version": "11.14-1.pgdg110+1"
+    },
+    "debian": "stretch",
+    "debianSuites": [
+      "bullseye",
+      "stretch"
+    ],
+    "major": 11,
+    "sha256": "965c7f4be96fb64f9581852c58c4f05c3812d4ad823c0f3e2bdfe777c162f999",
+    "stretch": {
+      "arches": [
+        "amd64",
+        "i386",
+        "ppc64el"
+      ],
+      "version": "11.14-1.pgdg90+1"
+    },
+    "version": "11.14"
+  },
+  "12": {
+    "alpine": "3.15",
+    "bullseye": {
+      "arches": [
+        "amd64",
+        "arm64",
+        "ppc64el"
+      ],
+      "version": "12.9-1.pgdg110+1"
+    },
+    "debian": "bullseye",
+    "debianSuites": [
+      "bullseye"
+    ],
+    "major": 12,
+    "sha256": "89fda2de33ed04a98548e43f3ee5f15b882be17505d631fe0dd1a540a2b56dce",
+    "version": "12.9"
+  },
+  "13": {
+    "alpine": "3.15",
+    "bullseye": {
+      "arches": [
+        "amd64",
+        "arm64",
+        "ppc64el"
+      ],
+      "version": "13.5-1.pgdg110+1"
+    },
+    "debian": "bullseye",
+    "debianSuites": [
+      "bullseye"
+    ],
+    "major": 13,
+    "sha256": "9b81067a55edbaabc418aacef457dd8477642827499560b00615a6ea6c13f6b3",
+    "version": "13.5"
+  },
+  "14": {
+    "alpine": "3.15",
+    "bullseye": {
+      "arches": [
+        "amd64",
+        "arm64",
+        "ppc64el"
+      ],
+      "version": "14.1-1.pgdg110+1"
+    },
+    "debian": "bullseye",
+    "debianSuites": [
+      "bullseye"
+    ],
+    "major": 14,
+    "sha256": "4d3c101ea7ae38982f06bdc73758b53727fb6402ecd9382006fa5ecc7c2ca41f",
+    "version": "14.1"
+  },
+  "9.6": {
+    "alpine": "3.15",
+    "bullseye": {
+      "arches": [
+        "amd64",
+        "arm64",
+        "ppc64el"
+      ],
+      "version": "9.6.24-1.pgdg110+1"
+    },
+    "debian": "stretch",
+    "debianSuites": [
+      "bullseye",
+      "stretch"
+    ],
+    "major": 9,
+    "sha256": "aeb7a196be3ebed1a7476ef565f39722187c108dd47da7489be9c4fcae982ace",
+    "stretch": {
+      "arches": [
+        "amd64",
+        "i386",
+        "ppc64el"
+      ],
+      "version": "9.6.24-1.pgdg90+1"
+    },
+    "version": "9.6.24"
+  }
+}

@@ -1,0 +1,30 @@
+name: Build
+description: Build base postgres image
+inputs:
+  version:
+    description: postgres version
+    required: true
+  workdir:
+    description: working directory
+    required: true
+  tags:
+    description: image tags
+    required: true
+  platform:
+    description: docker platform
+    required: false
+    default: linux/amd64
+runs:
+  using: "composite"
+  steps:
+  - name: Build image
+    env:
+      POSTGRES_VER: ${{ inputs.version }}
+      TAGS: ${{ inputs.tags }}
+      PLATFORM: ${{ inputs.platform }}
+    run: |
+      set -e
+      make buildx-build
+      . $GITHUB_ACTION_PATH/release.sh
+    shell: bash
+    working-directory: ${{ inputs.workdir }}/alpine
